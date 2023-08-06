@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
+body{
+    background:rgba(0,0,0,0.7)url(https://i.ytimg.com/vi/kCfiuuZ8rTc/maxresdefault.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box_shadow{
+    box-shadow: -2px 0px 11px 12px #121212;
+}
+
+.links_outline_border:hover{
+    border: 1px solid black;
+}
+.links_outline_border1{
+    background-color: black;
+    border-radius: 5px;
+
+
+}
+
+.btn_outlined{
+    background-color: transparent;
+    border: 1px solid rgb(45, 119, 255);
+    
+}
+.btn_outlined1{
+    width: 100%;
+}
