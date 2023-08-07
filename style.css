@@ -42,3 +42,74 @@ body{
 .btn_outlined1{
     width: 100%;
 }
+hr{
+    height: 2px;
+    background-color: rgb(99, 116, 245);
+}
+
+
+
+
+
+@media only screen and (max-width:990px) {
+
+.top_down{
+    margin-top: 20px;
+}
+
+.search_button2{
+    display: none;
+  }
+
+  .socialApps{
+    display: none;
+}
+.socialApps2{
+   position: relative;
+   top: 50px;
+   /* left: 35%; */
+
+   display: flex;
+   justify-content: space-between;
+}
+
+
+    
+}
+
+@media only screen and (max-width:717px) {
+
+    .socialApps{
+        display: none;
+    }
+  .search_button2{
+    display: none;
+  }
+  .socialApps2{
+    position: relative;
+    top: 50px;
+    /* left: 35%; */
+ }
+        
+    }
+
+    
+@media only screen and (min-width:990px) {
+    .socialApps2{
+        display: none;
+    }
+
+    .search_button{
+        display: none;
+      }
+     
+ 
+    }
+
+    @media only screen and (max-width:390px) {
+      .readme{
+        display: none;
+      }
+         
+     
+        }
