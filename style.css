@@ -62,7 +62,7 @@ body {
 
 hr {
     height: 2px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
 }
 
 
@@ -175,7 +175,11 @@ hr {
     
     
     }
-    
+
+    .youtube_videos{
+        width: 100%;
+    }
+  
 
 }
 
