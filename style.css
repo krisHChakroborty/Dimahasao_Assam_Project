@@ -8,6 +8,9 @@
 
 }
 
+.border_nav{
+    border: 2px solid white;
+}
 
 .top_nav_border_radius{
     border-radius: 10px;
@@ -16,6 +19,13 @@
 .google_outline{
    list-style: none;
    text-decoration: none;
+}
+
+h4{
+    text-transform:uppercase;
+    font-size:17px ;
+    word-spacing: 3px;
+   
 }
 
 body {
@@ -63,6 +73,8 @@ body {
 
 .btn_outlined1 {
     width: 100%;
+    /* color: rgb(182, 221, 255); */
+  
 }
 
 
