@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="script.js"></script>
 </head>
 
 <body id="changeBackground">
@@ -60,9 +62,9 @@
 
                
 <!-- header navigation bars starts from here -->
-                <nav class="navbar navbar-expand-lg  ">
+                <nav class="navbar navbar-expand-lg bg-primary top_nav_border_radius">
                     <div class="container-fluid">
-                        <a class="navbar-brand text_black text_black text_white" href="#"> <b> D I M A H A S O - A S S A M</b><span> <i class="fa-solid fa-angles-right fa-fade fa-md" style="color: #d5d5d5;"></i></span></a>
+                        <a class="navbar-brand text_black text_black text-white" href="#"> <b> D I M A H A S O - A S S A M</b><span> <i class="fa-solid fa-angles-right fa-fade fa-md" style="color: #d5d5d5;"></i></span></a>
                         <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -71,16 +73,16 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav d-flex ms-auto text-center">
                                 <li class="nav-item ">
-                                    <a class="nav-link links_outline_border links_outline_border1 text_black text_white   me-5" aria-current="page" href="#"><b>H o m e</b> </a>
+                                    <a class="nav-link links_outline_border links_outline_border1 text_black text-white   me-5" aria-current="page" href="#"><b>H o m e</b> </a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link links_outline_border text_black text_white me-5" href="#"><b>G e l l e r y</b></a>
+                                    <a class="nav-link links_outline_border text_black text-white me-5" href="#"><b>G e l l e r y</b></a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link links_outline_border text_black text_white me-5" href="#"><b>C o n t a c t</b></a>
+                                    <a class="nav-link links_outline_border text_black text-white me-5" href="#"><b>C o n t a c t</b></a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link links_outline_border text_black text_white me-5" aria-disabled="true"><b>F e e d b a c k</b></a>
+                                    <a class="nav-link links_outline_border text_black text-white me-5" aria-disabled="true"><b>F e e d b a c k</b></a>
                                 </li>
                             </ul>
 
@@ -101,7 +103,7 @@
                     <div class="container-fluid">
                       <form class="d-flex btn_outlined1" role="search">
                         <input class="form-control  btn_outlined  text_black text_white " type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn_outlined" type="submit"><a class="text-white" href="#">Google</a> </button>
+                        <button class="btn btn_outlined " type="submit"><a class="text_white google_outline" href="#">Google</a> </button>
                       </form>
                     </div>
                   </nav>
@@ -657,17 +659,11 @@ The district is situated at Southern part of Assam in the North East Region of I
 
 
 <script>
-    $(document).ready(function() {
-        $(".change").click(function() {
-            $("#changeBackground").css("background-color", "white");
-            $("#changeBackground").css("background", "none");
-            $(".text_black").css("color", "red");
-        });
-    });
+   
 </script>
 
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
