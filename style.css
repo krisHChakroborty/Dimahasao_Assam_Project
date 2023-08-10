@@ -106,6 +106,21 @@ hr {
 
 }
 
+.fixed_nav{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+.fixed_notification{
+    position: fixed;
+    width: 100%;
+    bottom: 460px;
+}
+.margin_top_aftr_notification{
+    margin-top: 100px;
+}
+
 
 
 
@@ -117,16 +132,17 @@ hr {
 }
 
 
-.socialmedia_roundshape {
+/* .socialmedia_roundshape {
     background-color: rgb(54, 54, 54);
     /* width: 56px; */
-    padding: 15px;
-    border-radius: 18%;
-}
-.socialApps2{
-    margin-right: 50px;
-}
+    /* padding: 15px;
+    border-radius: 18%; */
+ */
 
+ .socialApps2{
+    position:fixed;
+    left: 50px;
+}
 
 
 
@@ -178,15 +194,18 @@ hr {
     .search_button2 {
         display: none;
     }
-
-    .socialApps2 {
+    
+    /* .socialApps2 {
         position: relative;
         top: 50px;
         /* left: 35%; */
-    }
+    } */
     body {
        /* background-color: black; */
        background-image: url(https://w0.peakpx.com/wallpaper/264/596/HD-wallpaper-smoke-wavy-abstraction-black-background.jpg);
+       background-position: left center;
+       background-repeat: no-repeat;
+       background-size: cover;
     }
 
     .links_outline_border1 {
