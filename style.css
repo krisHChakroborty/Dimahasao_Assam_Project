@@ -71,7 +71,19 @@ body {
 
 }
 
-
+.socialApps3{
+    position: fixed;
+    top: 580px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    right:70px;
+    background-color: rgb(4, 4, 4);
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 1;
+    
+}
 
 
 
