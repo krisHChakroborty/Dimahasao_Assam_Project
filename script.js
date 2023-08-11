@@ -3,7 +3,8 @@ $(document).ready(function() {
         $("#changeBackground").css("background-color", "antiquewhite");
         $("#changeBackground").css("background", "none");
         $(".text_black").css("color", "black");
-        $(".border_nav").css("background", "skyblue");
+        $(".border_nav").css("background", "rgb(3, 164, 228)");
+        
     });
 });
 
@@ -20,9 +21,9 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $(".blue").click(function() {
-        $("#changeBackground").css("background", "#0013f5");
-        $("#changeBackground").css("border", "black");
-        $(".text_black").css("color", "white");
+        $("#changeBackground").css("background", "rgb(61, 61, 175)");
+        $(".border_nav").css("color", "rgb(25, 25, 224)");
+        $(".text_black").css("color", "dark");
     });
 });
 
