@@ -77,6 +77,9 @@ body {
   
 }
 
+.search_button{
+    margin-top: 100px;
+}
 
 
 
@@ -101,15 +104,18 @@ hr {
 .rocklight {
     overflow-y: hidden;
     height: 358px;
+
     ;
+
+  
 
 
 }
 
-.fixed_nav{
+.fixed_nav {
     position: fixed;
     width: 100%;
-    bottom: 0px;
+    bottom: 567px;
 }
 
 .fixed_notification{
