@@ -3,6 +3,7 @@ $(document).ready(function() {
         $("#changeBackground").css("background-color", "antiquewhite");
         $("#changeBackground").css("background", "none");
         $(".text_black").css("color", "black");
+        $(".text_wht").css("color", "white");
         $(".border_nav").css("background", "rgb(3, 164, 228)");
         
     });
@@ -14,6 +15,7 @@ $(document).ready(function() {
         $("#changeBackground").css("background", "rgb(182, 221, 255)");
         // $("#changeBackground").css("background", "none");
         $(".text_black").css("color", "black");
+        $(".text_wht").css("color", "white");
         $(".border_nav").css("background", "black");
     });
 });

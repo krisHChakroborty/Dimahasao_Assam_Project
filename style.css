@@ -60,7 +60,7 @@ body {
 .fixed_top{
     position: fixed;
     z-index: 1;
-    top: 415px;
+    top: 300px;
   
 
 }
@@ -75,17 +75,41 @@ body {
 
 .socialApps3{
     position: fixed;
-    top: 593px;
+   bottom: 0;
     display: flex;
     flex-direction: column;
     gap: 7px;
-    justify-content: center;
-    align-items: center;
+    
    
-    background: rgba(18, 87, 199, 0.7);
-    padding: 10px;
+    background: rgba(69, 145, 216, 0.937);
+    padding: 5px;
     border-radius: 20px;
     z-index: 1;
+}
+
+
+.fa-brands{
+    box-shadow: 0px 10px 11px -1px black;
+    border: 1px solid rgba(0, 0, 0, 0.076);
+    padding: 15px;
+    border-radius: 75px;
+}
+
+ 
+.fa-brands:hover{
+    box-shadow: 0px 10px 11px -1px black;
+    /* border: 1px solid rgb(0, 0, 0); */
+    padding: 15px;
+    border-radius: 75px;
+}
+
+.fa-brands_2{
+
+    box-shadow: -4px 1px 1px 3px #101010;
+  
+    padding: 8px 0px -5px 17px;
+    margin-left: 8px;
+    border-radius: 10px;
 }
 
 
@@ -99,6 +123,9 @@ body {
 
 .search_button{
     margin-top: 100px;
+}
+.footer_text_size{
+    font-size: 12px;
 }
 
 
@@ -177,7 +204,9 @@ hr {
     .socialApps {
         display: none;
     }
-   
+   .fixed_top{
+    display: none;
+   }
  
 
 }
@@ -187,6 +216,9 @@ hr {
     .socialApps {
         display: none;
     }
+    .fixed_top{
+        display: none;
+       }
 
     .search_button2 {
         display: none;
