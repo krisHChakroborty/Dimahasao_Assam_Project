@@ -4,9 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 
 
 }
+
 
 .border_nav{
     border: 2px solid white;
