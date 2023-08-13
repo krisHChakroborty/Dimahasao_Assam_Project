@@ -5,30 +5,45 @@
     text-decoration: none;
     text-decoration: none;
     scroll-behavior: smooth;
-
-
 }
 
 
-.border_nav{
+
+
+
+.border_nav {
     border: 2px solid white;
 }
 
-.top_nav_border_radius{
+
+
+
+
+.top_nav_border_radius {
     border-radius: 10px;
 }
 
-.google_outline{
-   list-style: none;
-   text-decoration: none;
+
+
+
+.google_outline {
+    list-style: none;
+    text-decoration: none;
 }
 
-h4{
-    text-transform:uppercase;
-    font-size:17px ;
+
+
+
+
+h4 {
+    text-transform: uppercase;
+    font-size: 17px;
     word-spacing: 3px;
-   
 }
+
+
+
+
 
 body {
     background: rgba(0, 0, 0, 0.4)url(https://images.unsplash.com/photo-1636575152642-2b7350009d4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&w=1000&q=80);
@@ -38,7 +53,11 @@ body {
     background-attachment: fixed;
     position: relative;
 }
-.text_white{
+
+
+
+
+.text_white {
     color: rgb(255, 255, 255);
 }
 
@@ -49,40 +68,49 @@ body {
     box-shadow: -2px 0px 11px 12px #121212;
 }
 
+
+
+
 .links_outline_border:hover {
     border: 1px solid black;
 }
 
+
+
+
+
 .links_outline_border1 {
     background-color: rgb(22, 49, 255);
     border-radius: 5px;
-
-
 }
-.fixed_top{
+
+
+
+
+.fixed_top {
     position: fixed;
     z-index: 1;
     top: 300px;
-  
-
 }
+
+
 
 
 .search_outlined {
     background-color: transparent;
     border: 1px solid rgb(3, 3, 3);
     margin-right: 5px;
-
 }
 
-.socialApps3{
+
+
+
+.socialApps3 {
     position: fixed;
-   bottom: 0;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     gap: 7px;
-    
-   
     background: rgba(69, 145, 216, 0.937);
     padding: 5px;
     border-radius: 20px;
@@ -90,12 +118,19 @@ body {
 }
 
 
-.fa-brands{
+
+
+
+.fa-brands {
     box-shadow: 0px 10px 11px -1px black;
     border: 1px solid rgba(0, 0, 0, 0.076);
     padding: 15px;
     border-radius: 75px;
 }
+
+
+
+
 
 .fixed_up_png {
     width: 40px;
@@ -105,17 +140,25 @@ body {
 }
 
 
-.fa-brands:hover{
+
+
+
+
+.fa-brands:hover {
     box-shadow: 0px 10px 11px -1px black;
     /* border: 1px solid rgb(0, 0, 0); */
     padding: 15px;
     border-radius: 75px;
 }
 
-.fa-brands_2{
+
+
+
+
+.fa-brands_2 {
 
     box-shadow: -4px 1px 1px 3px #101010;
-  
+
     padding: 8px 0px -5px 17px;
     margin-left: 8px;
     border-radius: 10px;
@@ -124,16 +167,27 @@ body {
 
 
 
+
+
 .btn_outlined1 {
     width: 100%;
     /* color: rgb(182, 221, 255); */
-  
 }
 
-.search_button{
+
+
+
+
+
+.search_button {
     margin-top: 100px;
 }
-.footer_text_size{
+
+
+
+
+
+.footer_text_size {
     font-size: 12px;
 }
 
@@ -150,7 +204,7 @@ hr {
 
 
 /* .iframe_border { */
-    border: 3px solid white;
+/* border: 3px solid white; */
 /* } */
 
 
@@ -159,13 +213,13 @@ hr {
 .rocklight {
     overflow-y: hidden;
     height: 358px;
-    ;
+
 }
 
 
 
 
-.margin_top_aftr_notification{
+.margin_top_aftr_notification {
     margin-top: 100px;
 }
 
@@ -176,16 +230,18 @@ hr {
 .rocklight:hover {
     overflow-y: auto;
     box-shadow: -3px -6px 24px 7px darkgrey;
-
 }
+
+
+
 
 
 /* .socialmedia_roundshape {
     background-color: rgb(54, 54, 54);
     /* width: 56px; */
-    /* padding: 15px;
+/* padding: 15px;
     border-radius: 18%; */
- 
+
 
 
 
@@ -213,50 +269,92 @@ hr {
     .socialApps {
         display: none;
     }
-   .fixed_top{
-    display: none;
-   }
- 
 
+    .fixed_top {
+        display: none;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:717px) {
 
     .socialApps {
         display: none;
     }
-    .fixed_top{
+
+
+    .fixed_top {
         display: none;
-       }
+    }
+
+
+
 
     .search_button2 {
         display: none;
     }
-    
-    /* .socialApps2 {
-        position: relative;
-        top: 50px;
-        /* left: 35%; */
-    /* } */ */
+
+
+
+
+
     body {
-       /* background-color: black; */
-       background-image: url(https://w0.peakpx.com/wallpaper/264/596/HD-wallpaper-smoke-wavy-abstraction-black-background.jpg);
-       background-position: left center;
-       background-repeat: no-repeat;
-       background-size: cover;
+        /* background-color: black; */
+        background-image: url(https://w0.peakpx.com/wallpaper/264/596/HD-wallpaper-smoke-wavy-abstraction-black-background.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
+
+
 
     .links_outline_border1 {
         background-color: rgb(0, 8, 251);
         border-radius: 5px;
     }
-    
-    .youtube_videos{
+
+
+
+
+
+    .youtube_videos {
         width: 100%;
     }
-  
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width:990px) {
@@ -275,6 +373,4 @@ hr {
     .readme {
         display: none;
     }
-
-
 }
